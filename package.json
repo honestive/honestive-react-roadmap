@@ -1,5 +1,5 @@
 {
-  "name": "@honestive/roadmap-react",
+  "name": "@honestive/react-roadmap",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
@@ -18,11 +18,10 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "apollo-boost": "^0.1.14",
-    "candour": "^4.0.3",
-    "graphql": "^0.13.2",
-    "react": "^16.4.2",
-    "react-apollo": "^2.1.11",
-    "react-dom": "^16.4.2"
+    "apollo-boost": "^0.1.20",
+    "candour": "^5.4.0",
+    "graphql": "^14.0.2",
+    "react": "^16.7.0-alpha.0",
+    "react-apollo": "^2.2.4"
   }
 }
