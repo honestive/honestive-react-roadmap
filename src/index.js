@@ -1,13 +1,7 @@
 import React, { Fragment } from 'react'
 import { ApolloProvider, Query } from 'react-apollo'
-import gql from 'graphql-tag'
-import {
-  Text,
-  Container,
-  Button,
-  CandourProvider,
-  Link,
-} from 'candour'
+import { Container } from 'candour'
+
 import defaultComponents from './components'
 import loadingData from './lib/loadingData'
 import releasesQuery from './lib/releasesQuery'
@@ -17,8 +11,8 @@ export default ({
   last = 5,
   endpoint = 'http://localhost:4000/graphql',
   roadmapUrl,
-  components: propComponents,
   hideSupportBadge,
+  components: propComponents,
   ...props,
 }) => (
   <ApolloProvider client={client(endpoint)}>
