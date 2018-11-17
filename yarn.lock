@@ -1100,10 +1100,10 @@ camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
-candour@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/candour/-/candour-5.4.0.tgz#772bad14f73c3cce2fc739d92e02910364abd20a"
-  integrity sha512-C38oz8MjFOkfvIDjFGai6PGS5TuhOS6Wj8Vwg0ANRIa2emlbVg0i+stWeTg/9HLnkNYi33mvsSvQY1g7+niQ7Q==
+candour@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/candour/-/candour-5.4.1.tgz#16b43cba47ec99abd0a23ebcf1269b4169709978"
+  integrity sha512-StoFycQEgdkYDffXDuIYpVSp0AM7lir4dAv4nCXAVWNsWXXcfJCXR9tBT0/pO0n97k2e8hq5Gb9kVAfcSx2nGA==
   dependencies:
     camelcase-css "^2.0.1"
     css-properties "^2.0.2"
